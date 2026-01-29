@@ -1,5 +1,5 @@
 {
-  "name": "aicommit",
+  "name": "@committools/aicommit",
   "version": "1.0.0",
   "description": "AI-powered git commit message generator with support for multiple AI providers",
   "main": "index.js",
