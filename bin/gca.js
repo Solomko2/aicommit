@@ -15,11 +15,12 @@ const os = require('os');
 const { getGitDiff, getStagedFiles, createCommit } = require('../lib/git');
 const { generateCommitMessage } = require('../lib/ai-providers');
 const { loadConfig, saveConfig, getConfigPath } = require('../lib/config');
+const { version } = require('../package.json');
 
 program
   .name('aicommit')
   .description('AI-powered git commit message generator')
-  .version('1.0.0')
+  .version(version)
   .option('-p, --provider <provider>', 'AI provider for this run (claude, openai, gemini)')
   .option('-b, --branch <branch>', 'Compare with branch instead of staged changes')
   .option('-e, --editor', 'Open in editor instead of console')

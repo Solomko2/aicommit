@@ -1,6 +1,6 @@
 {
   "name": "@committools/aicommit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI-powered git commit message generator with support for multiple AI providers",
   "main": "index.js",
   "bin": {
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/aicommit"
+    "url": "https://github.com/Solomko2/aicommit"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/aicommit/issues"
+    "url": "https://github.com/Solomko2/aicommit/issues"
   },
-  "homepage": "https://github.com/yourusername/aicommit#readme"
+  "homepage": "https://github.com/Solomko2/aicommit#readme"
 }
