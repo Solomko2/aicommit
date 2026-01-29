@@ -1,0 +1,46 @@
+{
+  "name": "aicommit",
+  "version": "1.0.0",
+  "description": "AI-powered git commit message generator with support for multiple AI providers",
+  "main": "index.js",
+  "bin": {
+    "aicommit": "./bin/gca.js",
+    "aic": "./bin/gca.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "ai",
+    "claude",
+    "openai",
+    "gpt",
+    "gemini",
+    "conventional-commits",
+    "commit-message",
+    "cli"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "openai": "^4.20.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "ora": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/aicommit"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/aicommit/issues"
+  },
+  "homepage": "https://github.com/yourusername/aicommit#readme"
+}

@@ -1,0 +1,28 @@
+# Development files
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Test files
+test/
+tests/
+*.test.js
+coverage/
+
+# Documentation (except README)
+docs/
+examples/
+
+# Config examples
+config.example.json
+.env.example
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Misc
+*.log
+.DS_Store
