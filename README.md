@@ -2,7 +2,7 @@
 
 AI-powered commit message generator with support for multiple AI providers. Generate professional commit messages in Conventional Commits format.
 
-[![npm version](https://img.shields.io/npm/v/aicommit.svg)](https://www.npmjs.com/package/aicommit)
+[![npm version](https://img.shields.io/npm/v/@committools/aicommit.svg)](https://www.npmjs.com/package/@committools/aicommit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features
@@ -19,7 +19,7 @@ AI-powered commit message generator with support for multiple AI providers. Gene
 ### Global Installation
 
 ```bash
-npm install -g aicommit
+npm install -g @committools/aicommit
 ```
 
 ### First-Time Setup
