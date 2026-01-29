@@ -26,3 +26,5 @@ config.example.json
 # Misc
 *.log
 .DS_Store
+PUBLISHING.md
+QUICKSTART.md

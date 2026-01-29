@@ -22,7 +22,7 @@
     "commit-message",
     "cli"
   ],
-  "author": "Your Name",
+  "author": "Oleksii Solomko",
   "license": "MIT",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.27.0",
